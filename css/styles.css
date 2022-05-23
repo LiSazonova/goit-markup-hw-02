@@ -46,13 +46,9 @@ body {
     color: var(--first-text-color);
 }
 
-.header-link:hover {
-    color: var(--first-accent-color);
-}
-
+.header-link:hover,
 .header-link:focus {
-    color: var(--third-text-color);
-    background-color: var(--first-accent-color);
+    color: var(--first-accent-color);
 }
 
 .current {
@@ -75,9 +71,8 @@ body {
 
 .header-mail:focus,
 .header-tel:focus {
-    color: var(--third-text-color);
-    background-color: var(--first-accent-color);
-}
+    color: var(--first-accent-color);
+    }
 
 
 .hero {
@@ -151,7 +146,7 @@ body {
 }
 
 .team {
-    background-color: var(--third-background-color);
+    background-color: var(--first-background-color);
 }
 
 .team-title {
@@ -221,7 +216,6 @@ body {
 .footer-mail:focus,
 .footer-tel:focus {
     color: var(--third-text-color);
-    background-color: var(--first-accent-color);
 }
 
 .filters-btn {
